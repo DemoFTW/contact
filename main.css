@@ -1,0 +1,377 @@
+html{
+    scroll-behavior: smooth;
+  }
+body{
+    font-size:17px !important;
+    line-height:30px !important;
+    font-family:rubik ,sans-serif !important;
+    font-weight:300 !important;
+    padding: 0;
+    margin: 0;
+    background-color:#0b0c12;
+} 
+@import 'https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap';
+
+
+a:hover{
+    text-decoration: none !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* navbar */
+
+.navbar{
+background-color: transparent !important;
+padding-top: 0px !important;
+top: 8% !important;
+}
+.navbar-brand{
+    position: absolute;
+    margin-left: 42%;
+    
+}
+.nav-bg{
+    height: 380px;
+    background-image: url(images/about1.jpg);
+    background-size: cover;
+    
+}
+.logo-bg{
+  
+    border: 1px solid #f9c200;
+    padding: 1rem;
+    background-color:#f9c200;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-top: 0;
+}
+.btn-outline-success{
+    color: black !important;
+    font-weight: bolder !important;
+    background-color: #f9c200 !important;
+    border: 1px solid #f9c200 !important;
+    padding: 1rem !important;
+    font-size: 25px !important;
+}
+
+.btn-outline-success:hover{
+    color: #f9c200 !important;
+    font-weight: bolder !important;
+    background-color: black !important;
+    border: 1px solid #f9c200 !important;
+    transition: 0.5s;
+}
+
+.navbar-expand-lg .fa{
+   border: 1px solid #f9c200;
+   padding: 1rem;
+   color: black;
+   background-color:#f9c200 ;
+   border-radius: 5px;
+   height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+ .phone{
+     padding-left: 8px;
+     font-weight: bolder;
+     color:#f9c200 ;
+ }
+ .call{
+    padding-left: 8px;
+    font-weight: bold;
+    color:#f9c200;
+ }
+/* /navbar */
+
+.contact{
+    position: relative;
+    top: 100px;
+   
+}
+
+ /* review */
+
+.review{
+    margin-top: 100px;
+    position: absolute;
+    height: 390px;
+    width: 400px;
+    background-color: white;
+    right: 3rem;
+    align-items: right;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-weight: bolder ;
+    
+    
+}
+.our-review{
+    font-weight: bold;
+}
+.space {
+    list-style: none;
+    font-weight: bold ;
+    font-size:28px;
+    color:#12131d;
+    text-transform:uppercase;
+    font-weight:500;
+    position:relative;z-index:2;
+  }
+  
+ .space li::after {
+    
+    position:absolute;
+    content:"";
+    height:100%;
+    width:10px;
+    background:#f9c200;
+    left:0px;
+    top:0;
+}
+    
+h4 .fa{
+    color:#f9c200;
+}
+.grey{
+    color: rgb(111, 136, 143);
+    font-size: 20px;
+} 
+.content{
+    padding-left: 20px;
+}
+  
+ /* /review */
+
+
+ /* main */
+ .main{
+    background-color:#12131d;
+     height: auto;
+     padding: 5rem;
+ }
+ .see{
+     color: #fff;
+     font-weight: 700;
+ }
+
+ .main p{
+     color: #fff;
+     text-align: left;
+     padding-top: 1rem;
+ }
+ .main img{
+   margin-top: 100px;  
+   
+ }
+
+ /* table */
+ .time-table{
+    margin-top: -100px;
+    position: absolute;
+    height: 390px;
+    width: 400px;
+    background-color: white;
+    right: 3rem;
+    align-items: right;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-weight: bolder ;
+
+ }
+ .grey2{
+    color: rgb(111, 136, 143);
+    font-size: 15px;
+} 
+.office-time{
+    font-weight: bold;
+}
+.time-table tr{
+    height: 40px;
+}
+
+/* contact form */
+
+.contact-head h2{
+    margin-top: 2em;
+    color: #fff;
+    font-weight: 700;
+}
+.contact-form {
+    margin-top: 2em;
+}
+.contact-form input,textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #f9c200;
+    outline: none;
+    padding: 1rem;
+    color: white;
+}
+.contact-form .btn{
+    padding: 1rem;
+}
+
+/* footer1 */
+.love{
+    height: 300px;
+    width: 100%;
+    padding: 6rem;
+    background:linear-gradient(to left,#F9C200,#FFBD7B);
+}
+.love h2{
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+/* newsletter */
+
+.newsletter form{
+    background:#242424;
+    border:none;
+    padding:16px;
+    border-radius:5px;
+    color:#fff;
+}
+.newsletter input{
+    background:#242424;
+    border:none;
+    color:#fff;
+    outline: none;
+}
+ .newsletter{
+    position:relative;
+    z-index:2;
+    
+}
+ a.subscribe-btn{
+    display:inline-block;
+    background:#f9c200;
+    padding:8px 30px;
+    border-radius:5px;
+    position:absolute;
+    right:8px;
+    color:#0b0c12;
+    top:8px;
+    font-weight:500;
+    text-transform:uppercase;
+    font-size:15px;
+}
+a.subscribe-btn:hover{
+    color:#0b0c12;
+    background:#fff;
+}
+
+/* /newsletter */
+
+/* main footer */
+.footer{
+    height: auto;
+    padding-left: 1rem;    
+    padding-right: 1rem;
+}
+.sect ul{
+    list-style-type: none;
+}
+.sect{
+    background-color: rgb(70, 78, 87);
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    color: #fff;
+}
+
+.sect2 ul {
+    list-style-type: none;}
+
+.sect2{
+    background-color: rgb(15, 17, 20);
+    height: auto !important;
+    width: 100%;
+    padding: 1rem;
+}
+.menu-items{
+    display:inline-block;
+    width:25%;
+    margin:10px;
+    border-radius:5px;
+    overflow:hidden;
+  
+}
+.menu-items:hover img{
+    transform: scale(1.2);
+}
+.menu-items img{
+    width: 100%;
+    transition: tarnsform .5s ease-in-out !important ;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.footer p span{
+    color: #f9c200;
+}
+
+.info{
+    padding: 1.5rem;
+}
+.info td{
+    padding: 1.5rem;
+    color: #f9c200;
+}
+.info td span{
+    font-size: 25px;
+}
+.info td .fa{
+    border: 1px solid #f9c200;
+    padding: 1rem;
+    color: black;
+    background-color:#f9c200 ;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.icons{
+    padding: 1.5rem;
+}
+.icons .fa{
+    margin: 10px;
+    padding: 1rem;
+    color: #f9c200 ;
+    background-color:rgb(70, 78, 87) ;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+.icons .fa:hover{
+    transform: scale(1.2);
+}
+.icons .fa-chevron-up{
+    margin: 10px;
+    padding: 1rem;
+    color: #f9c200 ;
+    background-color:white ;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    
+    
+}
